@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
+/* main-prints if number is 0,positive or negative*/
 /* betty style doc for function main goes there */
 int main(void)
 {
