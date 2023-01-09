@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
 * _puts_recursion - prints a string.
 * @str: string to be printed.
