@@ -5,9 +5,9 @@
 * @letters: number of letter of the file it should print
 * Return: number of letters printed or 0 incase of failure
 */
-ssize_t read_textfile(const char *filename, size_t letters)
+size_t read_textfile(const char *filename, size_t letters)
 {
-ssize_t op, rd, wr;
+size_t op, rd, wr;
 char *buffer;
 if (filename == NULL)
 return (0);
