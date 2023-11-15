@@ -1,21 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
-* _putchar - defines char to std output.
-* _puts_recursion - prints a string.
-* @str: string to be printed.
-* Return: Nothing.
+* _puts_recursion - prints a string followed by a new line using recursion.
+* @s: the string to be printed.
 */
-int _putchar(char c)
+void _puts_recursion(char *s)
 {
-return putchar(c);
-}
-void _puts_recursion(char *str)
-{
-if (*str == '\0')
+if (*s == '\0')
 {
 _putchar('\n');
 return;
 }
-_putchar(*str);
-_puts_recursion(++str);
+_putchar(*s);
+_puts_recursion(s + 1);
 }
