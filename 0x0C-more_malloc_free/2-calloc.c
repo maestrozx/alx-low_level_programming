@@ -20,7 +20,7 @@ return (NULL);
 }
 for (i = 0; i < (nmemb * size); i++)
 {
-*((char *)(p) + i) = 0;
+*((char *)(p) +i) = 0;
 }
 return (p);
 }
