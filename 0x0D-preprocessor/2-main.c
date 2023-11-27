@@ -1,5 +1,14 @@
 #include <stdio.h>
-int main(void) {
-printf("The file name is: %s\n", __FILE__);
-return 0;
+#ifndef FILE
+#define FILE __FILE__
+#endif
+/*
+* main - Returns filename of sorce file.
+*
+* Return: Always 0 indicating successful execution.
+*/
+int main(void)
+{
+printf("The file name is: %s\n", FILE);
+return (0);
 }
