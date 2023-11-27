@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define FILE __FILE__
 /**
 * main - Entry point of the program.
 *
@@ -17,7 +18,6 @@ int main(void)
 * This macro expands to a string literal containing the name of the
 * current source file.
 */
-#define FILE __FILE__
-printf("The file name is: %s\n", FILE);
+printf("%s\n", FILE);
 return (0);
 }
