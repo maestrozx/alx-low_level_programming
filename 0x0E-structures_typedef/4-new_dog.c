@@ -12,7 +12,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 int a, lenDog, lenOwner;
 struct dog *n_dog = NULL;
-lenN = 0;
+lenDog = 0;
 while (name[lenDog] != '\0')
 lenDog++;
 lenOwner = 0;
@@ -40,7 +40,7 @@ free(n_dog);
 return (NULL);
 }
 for (a = 0; a <= lenDog; a++)
-n_dog->name[i] = name[i];
+n_dog->name[a] = name[a];
 for (a = 0; a <= lenOwner; a++)
 n_dog->owner[a] = owner[a];
 n_dog->age = age;
