@@ -39,4 +39,3 @@ def island_perimeter(grid):
     vertical = connection_v * 2
     perimeter = total - horizontal - vertical
     return perimeter
-    
